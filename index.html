@@ -1,64 +1,69 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlexDash</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TOP NAV -->
+    <div class="topbar">
+      <div class="brand">FlexDash</div>
 
-<body>
+      <div class="search">
+        <input type="text" placeholder="Search dashboard..." />
+      </div>
 
-    <div class="dashboard">
-
-      
-        <aside class="sidebar">
-            <div class="logo-container">
-                <img src="logo.png" alt="FlexDash Logo" class="logo">
-                <h2>FlexDash</h2>
-            </div>
-            <ul>
-                <li>Dashboard</li>
-                <li>Analytics</li>
-                <li>Users</li>
-                <li>Reports</li>
-                <li>Settings</li>
-            </ul>
-        </aside>
-
-    
-        <div class="main">
-
-          
-            <header class="topbar">
-                <input type="text" placeholder="Search dashboard...">
-                <div class="admin">Admin</div>
-            </header>
-
-            
-            <section class="cards">
-                <div class="card">Users <br><strong>1,240</strong></div>
-                <div class="card">Revenue <br><strong>₹2.4L</strong></div>
-                <div class="card">Orders <br><strong>320</strong></div>
-            </section>
-
-            <section class="stats">
-                <div class="stat">Growth <br><strong>+18%</strong></div>
-                <div class="stat">Conversion <br><strong>5.4%</strong></div>
-            </section>
-
-           
-            <footer class="footer">
-                <div class="footer-content">
-                    <p>© 2026 FlexDash. All rights reserved.</p>
-                    <div class="footer-links">
-                    </div>
-                </div>
-            </footer>
-
-        </div>
-
+      <div class="admin">Admin</div>
     </div>
 
-</body>
+    <!-- MAIN LAYOUT -->
+    <div class="container">
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Analytics</a>
+        <a href="#">Users</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+      </div>
 
+      <!-- MAIN CONTENT -->
+      <div class="main">
+        <div class="card-row">
+          <div class="card">
+            <h3>Users</h3>
+            <p>1,240</p>
+          </div>
+
+          <div class="card">
+            <h3>Revenue</h3>
+            <p>₹2.4L</p>
+          </div>
+
+          <div class="card">
+            <h3>Orders</h3>
+            <p>320</p>
+          </div>
+        </div>
+
+        <div class="panel-row">
+          <div class="panel">Growth <br /><strong>+18%</strong></div>
+
+          <div class="panel">Conversion <br /><strong>5.4%</strong></div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-left">©️ 2026 FlexDash. All rights reserved.</div>
+
+      <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </div>
+    </footer>
+  </body>
 </html>
