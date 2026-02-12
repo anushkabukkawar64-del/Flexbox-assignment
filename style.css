@@ -11,7 +11,6 @@
     min-height: 100vh;
 }
 
-/* Sidebar */
 .sidebar {
     width: 220px;
     background: #1e293b;
@@ -46,8 +45,6 @@
     cursor: pointer;
     font-size: 18px;
 }
-
-/* Main Area */
 .main {
     flex: 1;
     background: #0f172a;
@@ -55,7 +52,6 @@
     flex-direction: column;
 }
 
-/* Top Bar */
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -75,7 +71,6 @@
     color: #e2e8f0;
 }
 
-/* Cards */
 .cards {
     display: flex;
     gap: 20px;
@@ -93,7 +88,7 @@
     border: 1px solid #334155;
 }
 
-/* Stats */
+
 .stats {
     display: flex;
     gap: 20px;
@@ -110,7 +105,7 @@
     font-size: 18px;
 }
 
-/* Footer */
+
 .footer {
     margin-top: auto;
     background: #1e293b;
@@ -142,7 +137,7 @@
     text-decoration: underline;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
 
     .dashboard {
